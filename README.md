@@ -18,4 +18,5 @@
 
 - 버튼
 
-- 
+- MainActivity.java
+- activity_main.xml
