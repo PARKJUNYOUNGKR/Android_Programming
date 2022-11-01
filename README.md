@@ -20,3 +20,7 @@
 
 - MainActivity.java
 - activity_main.xml
+
+## 스크롤 뷰
+
+- activity_main.xml
