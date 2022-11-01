@@ -24,3 +24,7 @@
 ## 스크롤 뷰
 
 - activity_main.xml
+
+## 슬라이딩 드로어
+
+- activity_main.xml
