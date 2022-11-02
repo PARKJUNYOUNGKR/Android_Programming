@@ -28,3 +28,9 @@
 ## 슬라이딩 드로어
 
 - activity_main.xml
+
+## 뷰 플리퍼
+
+- activity_main.xml
+
+- MainActivity.java
