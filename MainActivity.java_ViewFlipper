@@ -1,0 +1,53 @@
+package com.example.please;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.media.Image;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.ViewFlipper;
+
+public class MainActivity extends AppCompatActivity {
+    Button btn1,btn2;
+    ViewFlipper Vf1;
+    ImageView iv1, iv2, iv3;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        btn1 = (Button) findViewById(R.id.Btn1);
+        btn2 = (Button) findViewById(R.id.Btn2);
+
+        Vf1 = (ViewFlipper) findViewById(R.id.VF1);
+
+        iv1 = (ImageView) findViewById(R.id.IV1);
+        iv2 = (ImageView) findViewById(R.id.IV2);
+        iv3 = (ImageView) findViewById(R.id.IV3);
+
+        iv1.setImageResource(R.drawable.img1);
+        iv2.setImageResource(R.drawable.img2);
+        iv3.setImageResource(R.drawable.img3);
+
+
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Vf1.startFlipping();
+                Vf1.setFlipInterval(2000);
+            }
+        });
+
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Vf1.startFlipping();
+            }
+        });
+
+
+    }
+}
