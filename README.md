@@ -34,3 +34,13 @@
 - activity_main.xml
 
 - MainActivity.java
+
+#  메뉴와 대화상자
+
+## 배경 바꾸기 앱 만들기
+
+- acticity_main.xml
+
+- menu1.xml
+
+- MainActivity.java
