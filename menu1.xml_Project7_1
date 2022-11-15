@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemRed"
+        android:title="배경색(빨강)">
+    </item>
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemGreen"
+        android:title="배경색(초록)">
+    </item>
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemBlue"
+        android:title="배경색(파랑)">
+    </item>
+
+    <item android:title="버튼 번경 >> ">
+        <menu>
+            <item
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/subRotate"
+                android:title="버튼 45도 회전"/>
+
+            <item
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/subSize"
+                android:title="버튼 2배 확대"/>
+
+            <item
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/subDefault"
+                android:title="버튼 초기화"/>
+
+        </menu>
+
+    </item>
+</menu>
