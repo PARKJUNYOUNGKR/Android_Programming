@@ -44,3 +44,11 @@
 - menu1.xml
 
 - MainActivity.java
+
+## 대화 상자
+
+- Project 7_3
+
+- Mainactivity.java
+
+- activity_main.xml
